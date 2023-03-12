@@ -4,13 +4,8 @@ import App from "./App";
 import "./samples/node-api";
 import "./index.scss";
 
-import { createReactEditorJS } from "react-editor-js";
-const ReactEditorJS = createReactEditorJS();
-
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <App />
 );
 
 postMessage({ payload: "removeLoading" }, "*");

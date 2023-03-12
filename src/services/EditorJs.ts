@@ -1,4 +1,4 @@
-import Link from "@editorjs/@editorjs/link";
+// import Link from "@editorjs/@editorjs/link";
 import Hyperlink from "editorjs-hyperlink";
 
 import Embed from "@editorjs/embed";

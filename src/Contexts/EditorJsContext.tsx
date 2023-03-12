@@ -1,4 +1,4 @@
-import React, { createContext, useCallback, useRef } from "react";
+import { createContext, useCallback, useRef } from "react";
 
 export const EditorJsContext = createContext({});
 export function EditorJsStorage({ children }) {
@@ -22,5 +22,3 @@ export function EditorJsStorage({ children }) {
     </EditorJsContext.Provider>
   );
 }
-
-export default EditorJsContext;
